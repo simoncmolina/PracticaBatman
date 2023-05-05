@@ -1,0 +1,144 @@
+.main {
+   display: flex; 
+   flex-direction: column;
+   background: linear-gradient(to left top, blue, rgb(120, 4, 4) );
+   border-radius: 30px;
+}
+
+.PrincipalMain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacto {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    padding: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+
+}
+
+#contactouno {
+    padding-left: 0%;
+    margin-left: 0px ;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+}
+
+.title_contacto {
+    margin-left: 40%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.Habilidades{
+    margin-left: 40%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.Title_poderes{
+    margin-left: 40%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.clase_habilidades {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    padding: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+
+}
+
+#barras{
+    border-radius: 5px;
+    border-style: dotted;
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient(to right, blue 0%, blue 70%, white 20%, white 100%);
+    height: 3px;
+    width: 200px;
+}
+
+.clase_poderes{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    padding: 30px;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+
+}
+
+.title_hobbies{
+    margin-left: 40%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.Hobbies{
+    margin-left: 150px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    
+}
+
+body {
+    border-style: groove;
+    border-radius: 30px;
+}
+
+.Nombre1 {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 50px;
+   
+}
+
+.Nombre2 {
+    text-align: center;
+    padding-bottom: 60px;
+    margin-top: 0px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 70px;
+    
+}
+
+.cientifico {
+    margin-left: 10%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 20px;
+}
+
+.texto {
+    margin-left: 5%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 15px;
+    text-justify: center;
+}
+
+.imagen_principal {
+    margin: 30px;
+}
+
+.Titulos {
+    margin-left: 10%;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
